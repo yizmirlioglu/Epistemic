@@ -1,0 +1,8 @@
+
+
+clingo transition.lp domain.lp initial_state.lp action.lp 
+
+
+pre_hold(s) world_next(prime(s)) access_next(a,prime(s),prime(s)) access_next(b,prime(s),sub(u,b)) actual_next(prime(s)) world_next(sub(u,b)) valuation_next(prime(s),open) valuation_next(prime(s),near_a) valuation_next(prime(s),near_b) valuation_next(prime(s),haskey_a) valuation_next(sub(u,b),open) valuation_next(sub(u,b),near_b) valuation_next(sub(u,b),near_a) valuation_next(sub(u,b),haskey_a) allachieved
+SATISFIABLE
+
