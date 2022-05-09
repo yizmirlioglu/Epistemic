@@ -1,0 +1,8 @@
+
+
+clingo transition.lp domain.lp initial_state.lp action.lp 
+
+
+
+actual_next(prime(s)) pre_hold(s) world_next(prime(s)) valuation_next(prime(s),normal) valuation_next(prime(s),sound) access_next(b,prime(s),prime(s)) access_next(a,prime(s),subf(u,a,s)) world_next(subf(u,a,s)) access_next(a,subf(u,a,s),subf(u,a,s)) access_next(b,subf(u,a,s),subf(u,b,s)) world_next(subf(u,b,s)) access_next(b,subf(u,b,s),subf(u,b,s)) access_next(a,subf(u,b,s),subf(u,a,s)) valuation_next(subf(u,a,s),sound) valuation_next(subf(u,b,s),sound) valuation_next(subf(u,a,s),normal) valuation_next(subf(u,b,s),normal) allachieved
+SATISFIABLE
